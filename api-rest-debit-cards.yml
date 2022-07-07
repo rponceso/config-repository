@@ -1,0 +1,20 @@
+#Application Configuration
+server:
+  port: 8086
+spring:
+  application:
+    name: api-rest-debit-cards
+  data:
+    mongodb:
+      uri: mongodb+srv://user:pass@cluster-demo.wjgme.mongodb.net/debit-cards-db
+      port: 27017
+      username: user
+      password: pass
+  cloud:
+    config:
+      enabled: false
+      
+config:
+  base:
+    enpoint:
+      accounts: http://localhost:8082/api/accounts

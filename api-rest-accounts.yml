@@ -1,0 +1,22 @@
+#Application Configuration
+server:
+  port: 8082
+spring:
+  application:
+    name: api-rest-accounts
+  data:
+    mongodb:
+      uri: mongodb+srv://user:pass@cluster-demo.wjgme.mongodb.net/accounts-db
+      port: 27017
+      username: user
+      password: pass      
+  cloud:
+    config:
+      enabled: false
+
+
+config:
+  base:
+    enpoint:
+      credits: http://localhost:8084/api/credit
+      debitcards: http://localhost:8086/api/debit-card

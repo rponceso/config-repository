@@ -20,3 +20,4 @@ config:
     enpoint:
       credits: http://localhost:8084/api/credit
       debitcards: http://localhost:8086/api/debit-card
+      creditcards: http://localhost:8083/api/credit-card

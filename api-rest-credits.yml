@@ -1,6 +1,6 @@
 #Application Configuration
 server:
-  port: 8084
+  port: 8084 
 spring:
   application:
     name: api-rest-credits

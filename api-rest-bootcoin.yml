@@ -1,0 +1,15 @@
+#Application Configuration
+server:
+  port: 8089
+spring:
+  application:
+    name: api-rest-bootcoin
+  data:
+    mongodb:
+      uri: mongodb+srv://user:pass@cluster-demo.wjgme.mongodb.net/bootcoin-db
+      port: 27017
+      username: user
+      password: pass      
+  cloud:
+    config:
+      enabled: false
